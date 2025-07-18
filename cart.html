@@ -51,7 +51,7 @@
 
     <!-- JS for dynamic cart -->
     <script>
-      // Initial cart data -- you can extend/change this as needed!
+      // Initial cart data
       let cart = [
         {
           name: "Blue denim shirt",
@@ -161,7 +161,7 @@
         ul.innerHTML = summaryItems;
       }
 
-      // Attach button/input listeners
+      // Attach button
       function attachCartEventHandlers() {
         document.querySelectorAll('.cart-item').forEach(function(itemEl){
           const idx = +itemEl.getAttribute('data-index');
